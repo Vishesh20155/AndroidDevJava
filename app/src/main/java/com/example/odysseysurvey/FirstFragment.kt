@@ -36,7 +36,7 @@ class FirstFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        Toast.makeText(activity, "onViewCreated", Toast.LENGTH_SHORT).show();
+        Toast.makeText(activity, "Inside onViewCreated", Toast.LENGTH_SHORT).show();
 
 //        val roleOptions: Array<out String> = resources.getStringArray(R.array.roles_hintArray)
 //        context?.let { ArrayAdapter<String>(it, android.R.layout.simple_list_item_1, roleOptions).also { adapter ->
